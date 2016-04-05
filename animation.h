@@ -25,7 +25,7 @@ class Animator {
     private:
         Animation anim;
         void hold(); //Wait for some time depending on the animation
-        void get_animation(vector<string> &); //Pull animation from 
+        void get_animation(vector<string> &); //Pull animation from file into vector
 };
 
 #endif //__ANIMATION__
